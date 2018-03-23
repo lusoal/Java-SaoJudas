@@ -16,7 +16,7 @@ public class ConnectionFactory {
 	//Verificar se dessa forma funciona se nao adicionar o Trows
 	public static Connection realizarConexao(){
 		try {
-			return DriverManager.getConnection("jdbc:mysql://localhost/pais?user=root&password=123456");
+			return DriverManager.getConnection("jdbc:mysql://localhost/pais?user=Alunos&password=alunos");
 		}catch(SQLException e) {
 				System.out.println(e);
 				

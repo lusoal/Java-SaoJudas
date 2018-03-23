@@ -6,6 +6,7 @@ import Negocio.Pais;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -37,7 +38,11 @@ public class ManterPaisController extends HttpServlet {
 			serv = new PaisService();
 			serv.criar(pais);
 			
-			//response.sendRedirect("/index.html");
+			serv.selectPais(pais);
+			//enviar para jsp
+			request.setAttribute("pais", pais);
+			RequestDispatcher view = request.getRequestDispatcher("exibir_pais.jsp");
+			view.forward(request, response);
 		}
 		
 		else if(action.equals("/ManterPais.do")) {
