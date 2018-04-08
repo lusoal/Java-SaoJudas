@@ -41,7 +41,7 @@ public class ManterPaisController extends HttpServlet {
 			serv.selectPais(pais);
 			//enviar para jsp
 			request.setAttribute("pais", pais);
-			RequestDispatcher view = request.getRequestDispatcher("exibir_pais.jsp");
+			RequestDispatcher view = request.getRequestDispatcher("Pais.jsp");
 			view.forward(request, response);
 		}
 		
@@ -53,14 +53,9 @@ public class ManterPaisController extends HttpServlet {
 			serv = new PaisService();
 			serv.selectPais(pais);
 			
-			PrintWriter out = response.getWriter();
-			
-			out.println("<html><head><title>Pais Cadastrado</title></head><body>");
-			out.println( "Id: "+pais.getId()+"<br>");
-			out.println( "Nome: "+pais.getNome()+"<br>");
-			out.println( "Area: "+pais.getArea()+"<br>");
-			out.println( "Populacao: "+pais.getPopulacao()+"<br>");
-			out.println("</body></html>");
+			request.setAttribute("pais", pais);
+			RequestDispatcher view = request.getRequestDispatcher("Pais.jsp");
+			view.forward(request, response);
 			
 		}
 		
