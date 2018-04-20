@@ -1,5 +1,8 @@
 package Service;
 import Negocio.Pais;
+
+import java.util.ArrayList;
+
 import DAO.PaisDao;
 
 public class PaisService {
@@ -31,6 +34,10 @@ public class PaisService {
 	
 	public void habitantes(Pais pais){
 		dao.getHabitantes(pais);
+	}
+	
+	public ArrayList<Pais> listarTodos(){
+		return dao.ListarTodos();
 	}
 	
 	public String[] arrayPaises() {

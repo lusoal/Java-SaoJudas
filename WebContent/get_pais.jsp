@@ -20,7 +20,8 @@
     <label for="email">Id Pais:</label>
     <input class="form-control" name="id">
   </div>
-  <button type="submit" class="btn btn-default">Submit</button>
+  <button type="submit" class="btn btn-default" name="acao" value="listarUnico">Listar Unico</button>
+  <button type="submit" class="btn btn-default" name="acao" value="listarTodos">Listar Todos</button>
 </form>
 </div>
 </body>

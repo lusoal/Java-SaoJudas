@@ -5,6 +5,7 @@ import Negocio.Pais;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -46,16 +47,43 @@ public class ManterPaisController extends HttpServlet {
 		}
 		
 		else if(action.equals("/ManterPais.do")) {
-			String pId = request.getParameter("id");
 			
-			pais = new Pais();
-			pais.setId(Integer.parseInt(pId));
-			serv = new PaisService();
-			serv.selectPais(pais);
+			String acao = request.getParameter("acao");
 			
-			request.setAttribute("pais", pais);
-			RequestDispatcher view = request.getRequestDispatcher("Pais.jsp");
-			view.forward(request, response);
+			if (acao.equals("listarUnico")){
+				String pId = request.getParameter("id");
+				pais = new Pais();
+				pais.setId(Integer.parseInt(pId));
+				serv = new PaisService();
+				serv.selectPais(pais);
+				
+				request.setAttribute("pais", pais);
+				RequestDispatcher view = request.getRequestDispatcher("Pais.jsp");
+				view.forward(request, response);
+			
+			}else if(acao.equals("listarTodos")) {
+				pais = new Pais();
+				serv = new PaisService();
+				ArrayList<Pais> p = serv.listarTodos();
+				System.out.println("listar todos");
+				request.setAttribute("arrayPais", p);
+				RequestDispatcher view = request.getRequestDispatcher("lista_todos.jsp");
+				view.forward(request, response);
+				
+			}
+			
+			else if(acao.equals("excluirPais")) {
+				pais = new Pais();
+				serv = new PaisService();
+				ArrayList<Pais> p = serv.listarTodos();
+				System.out.println("listar todos");
+				request.setAttribute("arrayPais", p);
+				RequestDispatcher view = request.getRequestDispatcher("lista_todos.jsp");
+				view.forward(request, response);
+				
+			}
+			
+			
 			
 		}
 		

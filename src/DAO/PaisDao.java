@@ -7,6 +7,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 public class PaisDao {
 	
@@ -128,6 +129,43 @@ public class PaisDao {
 		
 
 	}
+	
+	
+	public ArrayList<Pais> ListarTodos() {
+		String sqlSelect = "Select * from paises";
+		
+		ArrayList<Pais> array = new ArrayList<Pais>();
+		try {
+			Connection conn = ConnectionFactory.realizarConexao();
+			PreparedStatement stm = conn.prepareStatement(sqlSelect);
+			
+			ResultSet rs = stm.executeQuery();
+			
+			try {
+				while(rs.next()) {
+					Pais p = new Pais();
+					p.setId(rs.getInt("id"));
+					p.setNome(rs.getString("nome_pais"));
+					p.setArea(rs.getDouble("area_pais"));
+					p.setPopulacao(rs.getLong("pop_pais"));
+					array.add(p);
+					System.out.println("entrei no array");
+				}
+			}catch(Exception e) {
+				Pais p = new Pais();
+				p.setId(-1);
+				p.setNome(null);
+				p.setPopulacao(0);
+				p.setArea(0);
+			}
+			
+		}catch(SQLException e) {
+			System.out.println(e);
+		}
+		
+		return array;
+	}
+	
 	
 	public void getMenorArea(Pais pais) {
 		try {

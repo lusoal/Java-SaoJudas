@@ -10,6 +10,7 @@
 	      <li class="active"><a href="index.jsp">Home</a></li>
 	      <li><a href="cadastrar_pais.jsp">Cadastrar Pais</a></li>
 	      <li><a href="get_pais.jsp">Verificar Paises</a></li>
+	      <li><a href="get_pais.jsp">Listar Paises</a></li>
 	    </ul>
 	    
 	  </div>
