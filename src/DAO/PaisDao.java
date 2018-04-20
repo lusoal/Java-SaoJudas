@@ -47,36 +47,19 @@ public class PaisDao {
 	}
 	
 	
-	public void AtualizarPais(Pais pais, String checkAlter) {
+	public void AtualizarPais(Pais pais) {
 		
-		String sqlAlter = "";
-		PreparedStatement stm = null;
+		String sqlAlter = "UPDATE paises SET nome_pais = ?, pop_pais = ?, area_pais=?  WHERE id=?";
+		System.out.println(sqlAlter);
 		try {
 			Connection conn = ConnectionFactory.realizarConexao();
-		
-		if (checkAlter.equals("Populacao")) {
-			 sqlAlter = "UPDATE paises SET pop_pais = ?  WHERE id=?";
-			 stm = conn.prepareStatement(sqlAlter);
-			 stm.setLong(1, pais.getPopulacao());
-			 stm.setInt(2, pais.getId());
+			PreparedStatement stm = conn.prepareStatement(sqlAlter);
+			 
+			 stm.setString(1, pais.getNome());
+			 stm.setLong(2, pais.getPopulacao());
+			 stm.setDouble(3, pais.getArea());
+			 stm.setInt(4, pais.getId());
 			 stm.execute();
-		}
-		
-		else if (checkAlter.equals("Area")) {
-			 sqlAlter = "UPDATE paises SET area_pais = ?  WHERE id=?";
-			 stm = conn.prepareStatement(sqlAlter);
-			 stm.setDouble(1, pais.getArea());
-			 stm.setInt(2, pais.getId());
-			 stm.execute();
-		}
-		
-		else if(checkAlter.equals("Nome")) {
-			sqlAlter = "UPDATE paises SET nome_pais = ?  WHERE id=?";
-			stm = conn.prepareStatement(sqlAlter);
-			stm.setString(1, pais.getNome());
-			stm.setInt(2, pais.getId());
-			stm.execute();
-		}
 		
 		}catch(SQLException e) {
 			System.out.println(e);

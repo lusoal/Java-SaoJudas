@@ -73,13 +73,36 @@ public class ManterPaisController extends HttpServlet {
 			}
 			
 			else if(acao.equals("excluirPais")) {
+				String id = request.getParameter("id");
+				
+				System.out.println(id);
+
 				pais = new Pais();
 				serv = new PaisService();
-				ArrayList<Pais> p = serv.listarTodos();
-				System.out.println("listar todos");
-				request.setAttribute("arrayPais", p);
-				RequestDispatcher view = request.getRequestDispatcher("lista_todos.jsp");
-				view.forward(request, response);
+				pais.setId(Integer.parseInt(id));
+				
+				serv.deletar(pais);
+				response.sendRedirect("index.jsp");  
+				
+			}
+			
+			else if(acao.equals("alterarPais")) {
+				String id = request.getParameter("id");
+				String nome = request.getParameter("nome");
+				String area = request.getParameter("area");
+				String populacao = request.getParameter("populacao");
+				
+				System.out.println("alterar dados pais");
+
+				pais = new Pais();
+				pais.setId(Integer.parseInt(id));
+				pais.setNome(nome);
+				pais.setArea(Double.parseDouble(area));
+				pais.setPopulacao(Long.parseLong(populacao));
+				
+				serv = new PaisService();
+				serv.alterar(pais);
+				response.sendRedirect("index.jsp");  
 				
 			}
 			

@@ -45,7 +45,7 @@ class Teste {
 		pais.setNome("Atualizado");
 		copia.setNome("Atualizado");
 		
-		service.alterarNome(pais, "Nome");
+		service.alterar(pais);
 		service.selectPais(pais);
 		
 		assertEquals(pais.getNome(),copia.getNome(),"Teste Atualziar");

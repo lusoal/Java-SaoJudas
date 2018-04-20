@@ -16,8 +16,8 @@ public class PaisService {
 		dao.IncluirPais(pais);
 	}
 	
-	public void alterarNome(Pais pais, String nome) {
-		dao.AtualizarPais(pais, nome);
+	public void alterar(Pais pais) {
+		dao.AtualizarPais(pais);
 	}
 	
 	public void deletar(Pais pais) {

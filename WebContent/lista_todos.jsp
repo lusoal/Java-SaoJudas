@@ -22,7 +22,6 @@
   <table class="table">
     <thead>
       <tr>
-        <th>ID</th>
         <th>Nome</th>
         <th>Area</th>
         <th>Populacao</th>
@@ -34,12 +33,12 @@
     <c:forEach items="${arrayPais}" var="pais">
      <form action="ManterPais.do" method="post">  
       <tr>
-	        <td><input class="form-control" name="id" value="${pais.id}"></td>
+	        <input input type="hidden" class="form-control" name="id" value="${pais.id}">
 	        <td><input class="form-control" name="nome" value="${pais.nome}"></td>
 	        <td><input class="form-control" name="area" value="${pais.area}"></td>
 	        <td><input class="form-control" name="populacao" value="${pais.populacao}"></td>
-	        <td><button type="submit" class="btn btn-default" name="alterar" value="${pais.id}">Alterar Pais</button></td>
-	 		<td><button type="submit" class="btn btn-default" name="excluir" value="${pais.id}">Excluir Pais</button></td>
+	        <td><button type="submit" class="btn btn-default" name="acao" value="alterarPais">Alterar Pais</button></td>
+	 		<td><button type="submit" class="btn btn-default" name="acao" value="excluirPais">Excluir Pais</button></td>
       </tr>
        </form>
        </c:forEach>
