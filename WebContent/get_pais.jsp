@@ -15,13 +15,13 @@
 <!-- Container Principal -->
 
 <div style=" margin-top: 100px; margin-bottom: 100px; margin-right: 150px; margin-left: 80px;">
-<form action="ManterPais.do" method="post">
+<form action="controller.do" method="post">
   <div class="form-group">
     <label for="email">Id Pais:</label>
     <input class="form-control" name="id">
   </div>
-  <button type="submit" class="btn btn-default" name="acao" value="listarUnico">Listar Unico</button>
-  <button type="submit" class="btn btn-default" name="acao" value="listarTodos">Listar Todos</button>
+  <button type="submit" class="btn btn-default" name="command" value="ListarUnico">Listar Unico</button>
+  <button type="submit" class="btn btn-default" name="command" value="ListarTodos">Listar Todos</button>
 </form>
 </div>
 </body>

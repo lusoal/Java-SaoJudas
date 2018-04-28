@@ -1,5 +1,2 @@
 /Controller/
-/Conexao/
-/DAO/
-/Service/
-/Test/
+/Command/
