@@ -20,6 +20,7 @@ public class Controller extends HttpServlet {
 				//instancia a classe que veio como parametro
 				(Command)Class.forName("Command."+request.getParameter("command")).newInstance();
 				comando.executar(request, response);
+				System.out.println(comando);
 		} catch (InstantiationException | IllegalAccessException | ClassNotFoundException e) {
 				e.printStackTrace();
 				throw new ServletException(e);
