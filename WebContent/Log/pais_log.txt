@@ -1,0 +1,64 @@
+Nenhuma requisicao
+Nenhuma requisicao
+Nenhuma requisicao
+Nenhuma requisicao
+Nenhuma requisicao
+Nenhuma requisicao
+Nenhuma requisicao
+Nenhuma requisicao
+lusoal -> null
+null -> lusoal
+lusoal -> null
+null -> lusoal
+lusoal -> null
+null -> lusoal
+lusoal -> ListarTodos
+ListarTodos -> lusoal
+lusoal -> AlterarPais
+AlterarPais -> lusoal
+lusoal -> null
+null -> lusoal
+lusoal -> RealizarLogin
+RealizarLogin -> lusoal
+lusoal -> null
+null -> lusoal
+lusoal -> null
+null -> lusoal
+lusoal -> AdicionarPais
+AdicionarPais -> lusoal
+lusoal -> null
+null -> lusoal
+lusoal -> ListarUnico
+ListarUnico -> lusoal
+lusoal -> null
+null -> lusoal
+lusoal -> ListarTodos
+ListarTodos -> lusoal
+lusoal -> ExcluirPais
+ExcluirPais -> lusoal
+lusoal -> null
+null -> lusoal
+lusoal -> null
+null -> lusoal
+java.util.GregorianCalendar[time=1526604599183,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="America/Sao_Paulo",offset=-10800000,dstSavings=3600000,useDaylight=true,transitions=129,lastRule=java.util.SimpleTimeZone[id=America/Sao_Paulo,offset=-10800000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=9,startDay=15,startDayOfWeek=1,startTime=0,startTimeMode=0,endMode=3,endMonth=1,endDay=15,endDayOfWeek=1,endTime=0,endTimeMode=0]],firstDayOfWeek=2,minimalDaysInFirstWeek=1,ERA=1,YEAR=2018,MONTH=4,WEEK_OF_YEAR=20,WEEK_OF_MONTH=3,DAY_OF_MONTH=17,DAY_OF_YEAR=137,DAY_OF_WEEK=5,DAY_OF_WEEK_IN_MONTH=3,AM_PM=1,HOUR=9,HOUR_OF_DAY=21,MINUTE=49,SECOND=59,MILLISECOND=183,ZONE_OFFSET=-10800000,DST_OFFSET=0] Nenhuma requisicao
+java.util.GregorianCalendar[time=1526604599183,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="America/Sao_Paulo",offset=-10800000,dstSavings=3600000,useDaylight=true,transitions=129,lastRule=java.util.SimpleTimeZone[id=America/Sao_Paulo,offset=-10800000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=9,startDay=15,startDayOfWeek=1,startTime=0,startTimeMode=0,endMode=3,endMonth=1,endDay=15,endDayOfWeek=1,endTime=0,endTimeMode=0]],firstDayOfWeek=2,minimalDaysInFirstWeek=1,ERA=1,YEAR=2018,MONTH=4,WEEK_OF_YEAR=20,WEEK_OF_MONTH=3,DAY_OF_MONTH=17,DAY_OF_YEAR=137,DAY_OF_WEEK=5,DAY_OF_WEEK_IN_MONTH=3,AM_PM=1,HOUR=9,HOUR_OF_DAY=21,MINUTE=49,SECOND=59,MILLISECOND=183,ZONE_OFFSET=-10800000,DST_OFFSET=0] Nenhuma requisicao
+java.util.GregorianCalendar[time=1526604599210,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="America/Sao_Paulo",offset=-10800000,dstSavings=3600000,useDaylight=true,transitions=129,lastRule=java.util.SimpleTimeZone[id=America/Sao_Paulo,offset=-10800000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=9,startDay=15,startDayOfWeek=1,startTime=0,startTimeMode=0,endMode=3,endMonth=1,endDay=15,endDayOfWeek=1,endTime=0,endTimeMode=0]],firstDayOfWeek=2,minimalDaysInFirstWeek=1,ERA=1,YEAR=2018,MONTH=4,WEEK_OF_YEAR=20,WEEK_OF_MONTH=3,DAY_OF_MONTH=17,DAY_OF_YEAR=137,DAY_OF_WEEK=5,DAY_OF_WEEK_IN_MONTH=3,AM_PM=1,HOUR=9,HOUR_OF_DAY=21,MINUTE=49,SECOND=59,MILLISECOND=210,ZONE_OFFSET=-10800000,DST_OFFSET=0] Nenhuma requisicao
+java.util.GregorianCalendar[time=1526604599210,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="America/Sao_Paulo",offset=-10800000,dstSavings=3600000,useDaylight=true,transitions=129,lastRule=java.util.SimpleTimeZone[id=America/Sao_Paulo,offset=-10800000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=9,startDay=15,startDayOfWeek=1,startTime=0,startTimeMode=0,endMode=3,endMonth=1,endDay=15,endDayOfWeek=1,endTime=0,endTimeMode=0]],firstDayOfWeek=2,minimalDaysInFirstWeek=1,ERA=1,YEAR=2018,MONTH=4,WEEK_OF_YEAR=20,WEEK_OF_MONTH=3,DAY_OF_MONTH=17,DAY_OF_YEAR=137,DAY_OF_WEEK=5,DAY_OF_WEEK_IN_MONTH=3,AM_PM=1,HOUR=9,HOUR_OF_DAY=21,MINUTE=49,SECOND=59,MILLISECOND=210,ZONE_OFFSET=-10800000,DST_OFFSET=0] Nenhuma requisicao
+2018-05-17 21:59:15.715 nenhuma requisicao
+2018-05-17 21:59:15.715 nenhuma requisicao
+2018-05-17 21:59:37.856 nenhuma requisicao
+2018-05-17 21:59:37.856 nenhuma requisicao
+2018-05-17 21:59:38.488 lusoal -> null
+2018-05-17 21:59:38.488 null -> lusoal
+2018-05-17 21:59:52.921 lusoal -> AdicionarPais
+2018-05-17 21:59:52.921 AdicionarPais -> lusoal
+2018-05-17 21:59:57.635 lusoal -> null
+2018-05-17 21:59:57.635 null -> lusoal
+2018-05-17 22:00:01.054 lusoal -> null
+2018-05-17 22:00:01.054 null -> lusoal
+2018-05-17 22:00:05.66 lusoal -> ListarTodos
+2018-05-17 22:00:05.66 ListarTodos -> lusoal
+2018-05-17 22:00:14.364 lusoal -> AlterarPais
+2018-05-17 22:00:14.364 AlterarPais -> lusoal
+2018-05-17 22:00:14.418 lusoal -> null
+2018-05-17 22:00:14.418 null -> lusoal

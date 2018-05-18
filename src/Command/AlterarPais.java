@@ -29,7 +29,7 @@ public class AlterarPais implements Command {
 		
 		PaisService serv = new PaisService();
 		serv.alterar(pais);
-		response.sendRedirect("index.jsp"); 
+		response.sendRedirect("cadastrar_pais.jsp"); 
 		
 	}
 

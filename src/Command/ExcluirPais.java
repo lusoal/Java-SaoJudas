@@ -23,7 +23,7 @@ public class ExcluirPais implements Command {
 		pais.setId(Integer.parseInt(id));
 		
 		serv.deletar(pais);
-		response.sendRedirect("index.jsp");  
+		response.sendRedirect("cadastrar_pais.jsp");  
 		
 	}
 
