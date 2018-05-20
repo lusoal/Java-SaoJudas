@@ -2,10 +2,10 @@ package Negocio;
 
 public class Usuario {
 	private String usuario;
-	private String senha;
+	private byte[] senha;
 	
 	
-	public Usuario(String usuario, String senha) {
+	public Usuario(String usuario,byte[] senha) {
 		this.usuario = usuario;
 		this.senha = senha;
 	}
@@ -16,10 +16,10 @@ public class Usuario {
 	public void setUsuario(String usuario) {
 		this.usuario = usuario;
 	}
-	public String getSenha() {
+	public byte[] getSenha() {
 		return senha;
 	}
-	public void setSenha(String senha) {
+	public void setSenha(byte[] senha) {
 		this.senha = senha;
 	}
 	

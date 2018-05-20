@@ -17,7 +17,7 @@ public class UsuarioDao {
 			Connection conn = ConnectionFactory.realizarConexao();
 			PreparedStatement stm = conn.prepareStatement(sqlSelect);
 			stm.setString(1, usuario.getUsuario());
-			stm.setString(2, usuario.getSenha());
+			stm.setBytes(2, usuario.getSenha());
 			try (ResultSet rs = stm.executeQuery();) {
 				if (rs.next()) {
 					return true;
@@ -33,5 +33,16 @@ public class UsuarioDao {
 		
 		
 		return false;
+	}
+	
+	public void criarUsuario(Usuario usuario) throws SQLException {
+		//criando usuario em bytes
+		System.out.println("Entrei no DAO");
+		String sqlSelect = "INSERT INTO usuario VALUES(?,?)";
+		Connection conn = ConnectionFactory.realizarConexao();
+		PreparedStatement stm = conn.prepareStatement(sqlSelect);
+		stm.setString(1, usuario.getUsuario());
+		stm.setBytes(2, usuario.getSenha());
+		stm.execute();
 	}
 }

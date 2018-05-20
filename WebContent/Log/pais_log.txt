@@ -62,3 +62,118 @@ java.util.GregorianCalendar[time=1526604599210,areFieldsSet=true,areAllFieldsSet
 2018-05-17 22:00:14.364 AlterarPais -> lusoal
 2018-05-17 22:00:14.418 lusoal -> null
 2018-05-17 22:00:14.418 null -> lusoal
+2018-05-20 11:28:36.683 nenhuma requisicao
+2018-05-20 11:28:36.683 nenhuma requisicao
+2018-05-20 11:45:42.822 nenhuma requisicao
+2018-05-20 11:45:42.822 nenhuma requisicao
+2018-05-20 11:45:53.058 nenhuma requisicao
+2018-05-20 11:45:53.058 nenhuma requisicao
+2018-05-20 11:45:53.072 nenhuma requisicao
+2018-05-20 11:45:53.072 nenhuma requisicao
+2018-05-20 11:47:58.417 nenhuma requisicao
+2018-05-20 11:47:58.417 nenhuma requisicao
+2018-05-20 11:48:08.016 nenhuma requisicao
+2018-05-20 11:48:08.016 nenhuma requisicao
+2018-05-20 11:48:08.025 nenhuma requisicao
+2018-05-20 11:48:08.025 nenhuma requisicao
+2018-05-20 11:49:50.057 nenhuma requisicao
+2018-05-20 11:49:50.057 nenhuma requisicao
+2018-05-20 11:49:55.185 nenhuma requisicao
+2018-05-20 11:49:55.185 nenhuma requisicao
+2018-05-20 11:49:55.193 nenhuma requisicao
+2018-05-20 11:49:55.193 nenhuma requisicao
+2018-05-20 11:50:40.655 nenhuma requisicao
+2018-05-20 11:50:45.472 nenhuma requisicao
+2018-05-20 11:50:45.472 nenhuma requisicao
+2018-05-20 11:50:47.282 nenhuma requisicao
+2018-05-20 11:50:47.282 nenhuma requisicao
+2018-05-20 11:50:47.29 nenhuma requisicao
+2018-05-20 11:50:47.29 nenhuma requisicao
+2018-05-20 11:54:13.457 nenhuma requisicao
+2018-05-20 11:54:13.457 nenhuma requisicao
+2018-05-20 11:54:19.045 nenhuma requisicao
+2018-05-20 11:54:19.045 nenhuma requisicao
+2018-05-20 11:55:17.675 nenhuma requisicao
+2018-05-20 11:55:17.675 nenhuma requisicao
+2018-05-20 11:55:20.465 nenhuma requisicao
+2018-05-20 11:55:20.465 nenhuma requisicao
+2018-05-20 11:55:26.832 nenhuma requisicao
+2018-05-20 11:55:26.832 nenhuma requisicao
+2018-05-20 11:55:58.149 nenhuma requisicao
+2018-05-20 11:55:58.149 nenhuma requisicao
+2018-05-20 11:56:00.708 nenhuma requisicao
+2018-05-20 11:56:00.708 nenhuma requisicao
+2018-05-20 11:56:05.985 nenhuma requisicao
+2018-05-20 11:56:05.985 nenhuma requisicao
+2018-05-20 11:56:06.724 nenhuma requisicao
+2018-05-20 11:56:06.724 nenhuma requisicao
+2018-05-20 11:57:32.795 nenhuma requisicao
+2018-05-20 11:57:32.795 nenhuma requisicao
+2018-05-20 11:58:04.656 nenhuma requisicao
+2018-05-20 11:58:04.656 nenhuma requisicao
+2018-05-20 11:58:07.477 nenhuma requisicao
+2018-05-20 11:58:07.477 nenhuma requisicao
+2018-05-20 11:58:13.128 nenhuma requisicao
+2018-05-20 11:58:13.128 nenhuma requisicao
+2018-05-20 11:59:18.996 nenhuma requisicao
+2018-05-20 11:59:18.996 nenhuma requisicao
+2018-05-20 11:59:25.315 nenhuma requisicao
+2018-05-20 11:59:25.315 nenhuma requisicao
+2018-05-20 12:00:20.317 nenhuma requisicao
+2018-05-20 12:00:20.317 nenhuma requisicao
+2018-05-20 12:00:22.692 nenhuma requisicao
+2018-05-20 12:00:22.692 nenhuma requisicao
+2018-05-20 12:00:28.039 nenhuma requisicao
+2018-05-20 12:00:28.039 nenhuma requisicao
+2018-05-20 12:02:01.686 nenhuma requisicao
+2018-05-20 12:02:01.686 nenhuma requisicao
+2018-05-20 12:02:05.915 nenhuma requisicao
+2018-05-20 12:02:05.915 nenhuma requisicao
+2018-05-20 12:03:12.101 nenhuma requisicao
+2018-05-20 12:03:12.101 nenhuma requisicao
+2018-05-20 12:03:16.113 nenhuma requisicao
+2018-05-20 12:03:16.113 nenhuma requisicao
+2018-05-20 12:03:16.825 nenhuma requisicao
+2018-05-20 12:03:16.825 nenhuma requisicao
+2018-05-20 12:08:55.732 nenhuma requisicao
+2018-05-20 12:08:55.732 nenhuma requisicao
+2018-05-20 12:09:01.541 nenhuma requisicao
+2018-05-20 12:09:01.541 nenhuma requisicao
+2018-05-20 12:09:02.148 lusoal -> null
+2018-05-20 12:09:02.148 null -> lusoal
+2018-05-20 12:09:09.273 lusoal -> null
+2018-05-20 12:09:09.273 null -> lusoal
+2018-05-20 12:09:10.561 lusoal -> null
+2018-05-20 12:09:10.561 null -> lusoal
+2018-05-20 12:09:11.716 lusoal -> ListarTodos
+2018-05-20 12:09:11.716 ListarTodos -> lusoal
+2018-05-20 12:09:15.471 lusoal -> null
+2018-05-20 12:09:15.471 null -> lusoal
+2018-05-20 12:09:24.981 lusoal -> AdicionarPais
+2018-05-20 12:09:24.981 AdicionarPais -> lusoal
+2018-05-20 12:10:04.77 lusoal -> null
+2018-05-20 12:10:04.77 null -> lusoal
+2018-05-20 12:10:05.931 lusoal -> null
+2018-05-20 12:10:05.931 null -> lusoal
+2018-05-20 12:10:07.09 lusoal -> RealizarLogout
+2018-05-20 12:10:07.09 RealizarLogout -> lusoal
+2018-05-20 12:10:07.101 nenhuma requisicao
+2018-05-20 12:10:07.101 nenhuma requisicao
+2018-05-20 12:10:21.33 nenhuma requisicao
+2018-05-20 12:10:21.33 nenhuma requisicao
+2018-05-20 12:11:09.799 nenhuma requisicao
+2018-05-20 12:11:09.799 nenhuma requisicao
+2018-05-20 12:11:12.642 nenhuma requisicao
+2018-05-20 12:11:12.642 nenhuma requisicao
+2018-05-20 12:11:21.188 nenhuma requisicao
+2018-05-20 12:11:21.188 nenhuma requisicao
+2018-05-20 12:11:21.881 nenhuma requisicao
+2018-05-20 12:11:21.881 nenhuma requisicao
+2018-05-20 12:11:26.467 nenhuma requisicao
+2018-05-20 12:11:26.467 nenhuma requisicao
+2018-05-20 12:11:26.493 lusoal -> null
+2018-05-20 12:11:26.493 null -> lusoal
+2018-05-20 12:11:27.89 lusoal -> RealizarLogout
+2018-05-20 12:11:27.89 RealizarLogout -> lusoal
+2018-05-20 12:11:27.901 nenhuma requisicao
+2018-05-20 12:11:27.901 nenhuma requisicao
